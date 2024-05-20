@@ -68,7 +68,7 @@ if __name__ == '__main__':
     maskX5 = 1 - X5.isnull()
     X5 = X5.fillna(0)
     
-    X6ori = pd.read_csv('/Users/yutongdai/Desktop/paper/hexNMF/hex data_DAI/X6f_CCLE_tumour_type_504 from Fujita.csv',
+    X6ori = pd.read_csv('/Users/yutongdai/Desktop/paper/hexNMF/hex data_DAI/X6f_CCLE_tumour_type_504.csv',
                      header=0, index_col=0, na_values='NaN')
     #X6 = X6ori[X1ori.notnull().any(axis=1)]     
     #
