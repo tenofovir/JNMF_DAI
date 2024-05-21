@@ -6,12 +6,12 @@ We propose a novel pipeline integrating joint non-negative matrix factorization 
 We upload the input data for your convenience, please download and replace the path in the file labeled (run this) with your local path.
 Please note that due to the file size limitation, we selected the first 3000 genes of the gene expression file, if you want the complete data, please follow the steps in the manuscript to download the original data in DepMap.
 
-### Code
+# Code
 The simulation data section is available in the "simulate" folder, simply run
 ```
 calc_TriNMF_SimulatedData_binary_missing.py
 ```
-To test the main section, please download the data and all the code in the main section, then run 
+To test the "main" section, please download the data and all the code in the "main" folder, then run 
 ```
 calc_select_k.py
 ``` 
